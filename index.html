@@ -7,6 +7,10 @@
 </head>
 
 <body>
+<!-- set up infinite scroll  -->
+<div class="container">
+  <div class="sliding-background"></div>
+</div>
 
 <canvas width="600" height="600"></canvas>
 
@@ -14,6 +18,18 @@
 <button class="play">Resume Game</button>
 
 <img class="hide-me ship" src="images/ship.png" alt="player">
+<!--add enemy ships-->
+<img class="hide-me enemyOne" src="images/enemy1.png" alt="bad guy!">
+<img class="hide-me enemyTwo" src="images/enemy2.png" alt="bad guy!">
+<img class="hide-me enemyThree" src="images/enemy3.png" alt="bad guy!">
+
+<!-- add reset screen -->
+<div class="level-up">
+  <h4 class="level-up-message"></h4>
+  <p>Ready Player 1?</p>
+  <button class="reset">LEVEL UP</button>
+</div>
+
 
 <script src="js/main.js"></script>
 </body>
